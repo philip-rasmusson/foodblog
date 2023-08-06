@@ -14,7 +14,8 @@ export const defaultDocumentNode: DefaultDocumentNodeResolver = (
         S.view
           .component(Iframe)
           .options({
-            url: `http://localhost:3000/api/preview`,
+            url: `https://foodblog-iota.vercel.app/api/preview`,
+            // url: `http://localhost:3000/api/preview`,
           })
           .title('Preview'),
       ])
